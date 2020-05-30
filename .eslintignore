@@ -1,0 +1,10 @@
+
+/public/
+/dist/
+/src/assets/
+/*.js
+/**/*.html
+/**/icon/*
+/src/api/axios.js
+/src/router/_import_production.js
+/src/utils/modules/record.js

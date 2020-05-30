@@ -1,0 +1,56 @@
+{
+    "menu": [
+        {
+            "name": "首页",
+            "iconClass": "home",
+            "componentId": "HomePage",
+            "children": [
+                {
+                    "name": "新闻轮播",
+                    "componentId": "SwiperNews"
+                },
+                {
+                    "name": "代办事项",
+                    "componentId": "TodoList"
+                },
+                {
+                    "name": "我的应用",
+                    "componentId": "MyApplication"
+                }
+            ]
+        },
+        {
+            "name": "应用",
+            "iconClass": "",
+            "componentId": "App",
+            "children": [
+             {
+                    "name": "应用列表",
+                    "componentId": "AppLicationList"
+             }
+            ]
+        },
+        {
+            "name": "发现",
+            "iconClass": "",
+            "componentId": "Discover",
+            "children": [
+            	  {
+                    "name": "小屏列表",
+                    "componentId": "MiniScreen"
+             }
+            ]
+        },
+        {
+            "name": "我的",
+            "iconClass": "...",
+            "componentId": "Mine",
+            "children": [
+                {
+                    "name": "个人中心",
+                    "componentId": "PersonalCenter"
+                }
+            ]
+        }
+    ]
+}

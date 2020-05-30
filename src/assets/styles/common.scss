@@ -1,0 +1,105 @@
+/**
+ *@Description: common
+ *@author: Wangsenyang
+ *@Date: 2020/3/18
+*/
+
+// 正文(主要字号)
+$font-primary: 16px;
+// 一级标题
+$font-first-title: 24px;
+// 二级标题
+$font-second-title: 20px;
+// 输入性字号
+$font-text-input: 14px;
+// 辅字号
+$font-text-auxiliary: 12px;
+
+// 主要正文基础色号
+$color-base: #878D95;
+// 输入字色号
+$color-text-input: #16376B;
+// 提示性色号
+$color-warning: #919FC1;
+// 高亮色号
+$color-text-light: #356AFB;
+// 标题色号
+$color-title-number1: #183457;
+$color-title-number2: #384052;
+
+//纯色
+$color-white: #fff;
+
+/*基础样式定义*/
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 5.2083333333333333vw;  // 默认给定1rem=100px(可以是字号任意值) （100/1920）*100vw 
+    font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    min-width: 1280PX; // 给定最小宽度阈值，防止可视窗口无限小造成布局混乱
+}
+#app {
+    font-size:  $font-primary;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+    font-size: 0;
+}
+
+button, input[type="button"] {
+    cursor: pointer;
+    outline: none;
+}
+
+input:disabled, button:disabled {
+    cursor: not-allowed;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*修改默认滚动条*/
+::-webkit-scrollbar {
+    width: 6px;
+    height: 3px;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(50, 50, 50, .1);
+    height: .05rem !important;
+}
+
+::-webkit-scrollbar-thumb:vertical {
+    background-color: #409EFF;
+    height: .05rem !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background-color: #409EFF;
+    height: .05rem !important;
+}
